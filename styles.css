@@ -1,0 +1,89 @@
+body,
+h1,
+h2 {
+  font-family: "Abril Fatface", sans-serif;
+}
+body,
+html {
+  font-size: 25px;
+  height: 100%;
+}
+
+body {
+  background-color: #765285;
+}
+
+p {
+  line-height: 2;
+  text-align: center;
+  -ms-text-size-adjust: auto;
+}
+
+.bgimg,
+.bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg {
+  background-image: url("/Users/techmoms/Desktop/PORTFOLIO/images/deskfsd.png");
+}
+
+.bgimg2 {
+  background-image: url("/Users/techmoms/Desktop/PORTFOLIO/images/self-image.jpg");
+  width: 700px;
+  height: 90vh;
+}
+.passion h2,
+i {
+  flex: content;
+  text-align: center;
+ 
+}
+.passion p {
+  font-size: large;
+  font-weight: 200%;
+}
+
+.fleximg {
+  float: left;
+  margin-right: 10px;
+  clear: both;
+  display: flex;
+}
+.main h1 {
+  flex: content;
+  -ms-flex-align: center;
+  margin-left: 0px;
+  overflow: auto;
+}
+.intro p {
+  margin-left: 0px;
+  overflow: auto;
+  display: block;
+  font-family: "Abril Fatface", sans-serif;
+}
+
+.rose {
+  text-align: center;
+  font-weight: 900;
+  font-style: oblique;
+}
+
+.logopic {
+  margin-top: 150px;
+  height: 50vh;
+  width: 25vw;
+  float: left;
+}
+.container {
+  background-color: #765285;
+  display: flex;
+}
+
+.harmony p {
+  flex-wrap: wrap;
+  margin-top: 0rem;
+  font-size: 32px;
+}
