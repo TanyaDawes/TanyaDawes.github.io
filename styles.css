@@ -27,11 +27,11 @@ p {
 }
 
 .bgimg {
-  background-image: url("/Users/techmoms/Desktop/PORTFOLIO/images/deskfsd.png");
+  background-image: url("images/deskfsd.png");
 }
 
 .bgimg2 {
-  background-image: url("/Users/techmoms/Desktop/PORTFOLIO/images/self-image.jpg");
+  background-image: url("images/self-image.jpg");
   width: 700px;
   height: 90vh;
 }
@@ -39,7 +39,6 @@ p {
 i {
   flex: content;
   text-align: center;
- 
 }
 .passion p {
   font-size: large;
