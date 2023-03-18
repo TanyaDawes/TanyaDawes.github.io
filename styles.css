@@ -1,8 +1,18 @@
 body,
-h1,
-h2 {
+h1 {
   font-family: "Abril Fatface", sans-serif;
 }
+h2 {
+  font-size: larger;
+  font-family: "Abril Fatface", sans-serif;
+  text-align: center;
+}
+h3 {
+  font-size: x-small;
+  text-align: end;
+  text-align: right;
+}
+
 body,
 html {
   font-size: 25px;
@@ -10,7 +20,7 @@ html {
 }
 
 body {
-  background-color: #765285;
+  background-color: #6a1757;
 }
 
 p {
@@ -18,31 +28,114 @@ p {
   text-align: center;
   -ms-text-size-adjust: auto;
 }
+.w3 h2{
+  font-size: smaller;
+  font-style: italic;
+}
+.social-buttons {
+  display: list-item;
+  border: 0;
+}
 
-.bgimg,
-.bgimg2 {
+.social-icon {
+  margin-bottom: 8px;
+  box-sizing: content-box;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 1 px;
+  padding-top: 9px;
+  transition: all 0.5s;
+}
+
+.social-icon:hover {
+  transform: rotate(360deg) scale(1.3);
+}
+
+.linkedin {
+  -ms-text-combine-horizontal: all;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 2px;
+  padding-left: 1px;
+  background-color: #0976b4;
+  color: #ffffff;
+  border-color: #0976b4;
+}
+
+.facebook {
+  -ms-text-combine-horizontal: all;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 2px;
+  border-color: #3b5998;
+  background-color: #3b5998;
+  color: #ffffff;
+}
+.github {
+  -ms-text-combine-horizontal: all;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 2px;
+  padding-left: 0px;
+  background-color: #333333;
+  color: #ffffff;
+  border-color: #333333;
+}
+.pinterest {
+  -ms-text-combine-horizontal: all;
+  text-align: center;
+  font-size: 26px;
+  padding-top: 2px;
+  padding-left: 0px;
+  background-color: #cb2027;
+  color: #ffffff;
+  border-color: #cb2027;
+}
+
+.bgimg {
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
 
 .bgimg {
-  background-image: url("images/deskfsd.png");
+  background-image: url("images/worktech.jpg");
 }
 
-.bgimg2 {
-  background-image: url("images/self-image.jpg");
-  width: 700px;
-  height: 90vh;
+.self img {
+  
 }
 .passion h2,
 i {
+  font-size: xx-large;
   flex: content;
   text-align: center;
 }
 .passion p {
   font-size: large;
   font-weight: 200%;
+}
+.passion span {
+  display: inline-block;
+  text-align: start;
+  inline-size: auto;
+}
+.span1 {
+  text-indent: -1in;
+  align-items: flex-start;
+}
+.span2 {
+  text-indent: 1.5in;
+  align-items: center;
+}
+.span3 {
+  text-indent: 3.5in;
+  align-items: end;
 }
 
 .fleximg {
@@ -52,6 +145,7 @@ i {
   display: flex;
 }
 .main h1 {
+  text-size-adjust: smaller;
   flex: content;
   -ms-flex-align: center;
   margin-left: 0px;
@@ -64,10 +158,13 @@ i {
   font-family: "Abril Fatface", sans-serif;
 }
 
-.rose {
-  text-align: center;
-  font-weight: 900;
-  font-style: oblique;
+.rose img {
+ display: inline-block;
+
+}
+.fswpic {
+  display: inline-block;
+  align-content: center;
 }
 
 .logopic {
@@ -77,12 +174,36 @@ i {
   float: left;
 }
 .container {
-  background-color: #765285;
+  background-color: #ffffff;
   display: flex;
 }
 
 .harmony p {
+  text-align: center;
   flex-wrap: wrap;
   margin-top: 0rem;
   font-size: 32px;
+}
+.w3-half{
+  font-size: medium;
+  text-decoration: double;
+  justify-content: center;
+  text-align: center;
+}
+.W-3-display-container {
+  display: flexbox;
+  text-overflow: clip;
+  text-align: center;
+  background-color: antiquewhite;
+  background-color: transparent;
+}
+.w-3 img {
+  display:grid;
+  width: 100px;
+  height: 40vh;
+}
+.self p{
+  text-align: end;
+  float: inline-end;
+  float: right;
 }
