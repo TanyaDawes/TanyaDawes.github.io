@@ -28,7 +28,7 @@ p {
   text-align: center;
   -ms-text-size-adjust: auto;
 }
-.w3 h2{
+.w3 h2 {
   font-size: smaller;
   font-style: italic;
 }
@@ -107,9 +107,13 @@ p {
   background-image: url("images/worktech.jpg");
 }
 
-.self img {
-  
+.self {
+  max-height: 600px;
+  border-radius: 5%;
+  position: absolute;
+  right: 10%;
 }
+
 .passion h2,
 i {
   font-size: xx-large;
@@ -159,8 +163,7 @@ i {
 }
 
 .rose img {
- display: inline-block;
-
+  display: inline-block;
 }
 .fswpic {
   display: inline-block;
@@ -184,7 +187,7 @@ i {
   margin-top: 0rem;
   font-size: 32px;
 }
-.w3-half{
+.w3-half {
   font-size: medium;
   text-decoration: double;
   justify-content: center;
@@ -198,12 +201,17 @@ i {
   background-color: transparent;
 }
 .w-3 img {
-  display:grid;
+  display: grid;
   width: 100px;
   height: 40vh;
 }
-.self p{
+.self p {
   text-align: end;
   float: inline-end;
   float: right;
+}
+
+.rose,
+.centered {
+  text-align: center;
 }
